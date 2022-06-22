@@ -1,0 +1,37 @@
+site_name: Paul Woitaschek
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+plugins: [ ]
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/paulwoitaschek
+      name: Paul Woitaschek on Twitter
+
+    - icon: fontawesome/brands/github
+      link: https://github.com/PaulWoitaschek
+      name: Paul Woitaschek on Github
+
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:woitaschek@gmail.com
+      name: Mail Me
+
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/paul-woitaschek-4a9952aa
+      name: Paul Woitaschek on Linked In
+
+    - icon: fontawesome/brands/medium
+      link: https://medium.com/@woitaschek
+      name: Paul Woitaschek on Medium
