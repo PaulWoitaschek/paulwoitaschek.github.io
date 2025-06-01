@@ -13,7 +13,8 @@ hide:
 
 > Engineering leader focused on strong teams and scalable systems.
 
-Director of Product Engineering [@YAZIO](https://www.yazio.com)
+Director of Product Engineering [@YAZIO](https://www.yazio.com)  
+In love with KMP, Android & iOS ❤️
 
 </div>
 
