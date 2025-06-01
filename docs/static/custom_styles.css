@@ -1,0 +1,77 @@
+img[alt="Profile Picture"] {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    /* Add some space below the image */
+}
+
+.profile-card {
+    background-color: var(--md-default-bg-color, #ffffff);
+    /* Ensure fallback to white */
+    border-radius: 0.75rem;
+    /* Slightly more rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    /* Softer, more layered shadow */
+    padding: 2.5em;
+    /* More padding */
+    margin: 2em auto;
+    /* Keep centered, auto for left/right */
+    max-width: 600px;
+    /* Keep max width */
+    text-align: center;
+    /* Center text content */
+}
+
+.profile-card h1 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    color: #1c1c1c;
+    /* Explicit very dark color for the name */
+}
+
+.profile-card blockquote {
+    font-size: 1.2em;
+    /* Slightly larger */
+    font-style: italic;
+    /* Italicize for quote style */
+    color: #074c96;
+    /* Blue color for the quote text, matching the image */
+    border-left: 4px solid var(--md-accent-fg-color, #007bff);
+    /* Use theme accent color for border */
+    padding-left: 1em;
+    /* Padding to separate text from border */
+    margin: 1.5em auto;
+    /* More vertical margin, keep horizontal centering */
+    text-align: center;
+    /* Align text to the left within the blockquote */
+}
+
+.profile-card p {
+    /* This styles the "Director of Product Engineering" text */
+    margin-bottom: 1em;
+    color: #424242;
+    /* Darker, less "greyish" color for the title/paragraph */
+}
+
+.social-links-manual {
+    font-size: 1.2em;
+    /* Make social links a bit larger */
+}
+
+.social-links-manual a {
+    margin: 0 0.5em;
+    color: var(--md-typeset-a-color, #007bff);
+}
+
+.social-links-manual a:hover {
+    color: var(--md-accent-fg-color);
+}
+
+/* Hide search button in header */
+.md-header__button.md-icon[for="__search"] {
+    display: none !important;
+}

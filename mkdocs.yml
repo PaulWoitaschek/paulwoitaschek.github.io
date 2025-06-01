@@ -1,0 +1,51 @@
+site_name: Paul Woitaschek
+site_url: https://woitaschek.com/
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: white
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  font:
+    text: Noto
+    code: Noto Mono
+  icon:
+    logo: fontawesome/solid/code
+
+extra:
+#  social:
+#    - icon: fontawesome/brands/medium
+#      link: https://medium.com/@woitaschek
+#    - icon: fontawesome/brands/linkedin
+#      link: https://www.linkedin.com/in/paul-woitaschek-4a9952aa
+#    - icon: fontawesome/brands/github
+#      link: https://github.com/PaulWoitaschek
+#    - icon: fontawesome/brands/twitter
+#      link: https://twitter.com/paulwoitaschek
+#    - icon: fontawesome/solid/envelope
+#      link: mailto:woitaschek@gmail.com
+  generator: false
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - md_in_html
+
+extra_css:
+  - static/custom_styles.css
+
+copyright: <a href="/impressum/">Impressum</a>
